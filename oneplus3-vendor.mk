@@ -18,6 +18,10 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/proprietary/vendor/etc/permissions/android.hardware.vulkan.compute.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.compute.xml \
     $(VENDOR_PATH)/proprietary/vendor/etc/permissions/android.hardware.vulkan.level.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.level.xml \
     $(VENDOR_PATH)/proprietary/vendor/etc/permissions/android.hardware.vulkan.version.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.version.xml \
+    $(VENDOR_PATH)/proprietary/vendor/firmware/tp/fw_synaptics_15801.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/fw_synaptics_15801.img \
+    $(VENDOR_PATH)/proprietary/vendor/firmware/tp/fw_synaptics_15801b.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/fw_synaptics_15801b.img \
+    $(VENDOR_PATH)/proprietary/vendor/firmware/tp/fw_synaptics_15811.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/fw_synaptics_15811.img \
+    $(VENDOR_PATH)/proprietary/vendor/firmware/tp/fw_synaptics_touchkey.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/fw_synaptics_touchkey.img \
     $(VENDOR_PATH)/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_adreno.so \
